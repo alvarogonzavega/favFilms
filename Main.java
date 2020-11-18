@@ -42,7 +42,7 @@ public class Main {
 				
 				if(a[c]==b[i]) {
 					
-					System.out.println((c+1)+". "+list[i]);
+					System.out.println((c+1)+". "+list[i]+" ("+a[c]+")");
 					c++;
 					if(c==list.length) break;
 					
